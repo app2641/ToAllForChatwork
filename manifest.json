@@ -1,0 +1,19 @@
+{
+    "name": "ToAllForChatwork",
+    "version": "0.1",
+    "description": "Chatoworkのグループチャットで全員宛先指定を行うことが出来る",
+    "permissions": ["tabs", "contextMenus"],
+
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "content_scripts": [{
+        "matches": ["*://*.www.chatwork.com/*"],
+        "js": ["js/content.js"]
+    }],
+    "icons": {
+        "128": "img/chat.png",
+        "24": "img/chat.png"
+    },
+    "manifest_version": 2
+}
