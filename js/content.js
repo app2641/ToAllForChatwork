@@ -31,10 +31,9 @@ chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
 
     if (text === '') {
         return false;
-    } else {
-        text += 'ALL\n';
     }
 	
+    text += '\n';
 
     if (focus.getAttribute('id') !== '_chatText') {
         return false;

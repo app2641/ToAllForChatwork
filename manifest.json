@@ -1,7 +1,7 @@
 {
     "name": "ToAllForChatwork",
-    "version": "0.1",
-    "description": "Chatoworkのグループチャットで全員宛先指定を行うことが出来る",
+    "version": "0.2",
+    "description": "Chatoworkのグループチャットで全員宛先指定を行うことが出来るようになります。",
     "permissions": ["tabs", "contextMenus"],
 
     "background": {
